@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Roboto";
+    src:local("Roboto"), 
+        url("asset/font/Roboto-Black.ttf");
+}
+
+#main {
+    font-family: "Roboto";
+    background-color: rgb(43, 43, 44);
+    color: rgb(255, 255, 240);
+    width: 99%;
+    justify-content: center;
+}
+
+a {
+    color: rgb(255, 255, 240);
+    text-align: center;
+}
+
+#searchbox {
+    margin: auto;
+    text-align: center;
+    width: 25%;
+    margin-top: 5%;
+}
+
+#searchbox > iframe {
+    margin: auto;
+    margin-top: 10%;
+    width: 100%;
+}
+
+
+#link {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#link > div {
+    margin: 5%;
+}
