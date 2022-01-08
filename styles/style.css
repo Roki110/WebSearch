@@ -4,18 +4,48 @@
         url("asset/font/Roboto-Black.ttf");
 }
 
+    /*---------------- All ----------------*/
+
 #main {
-    font-family: "Roboto";
+    padding: 0px;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
     background-color: rgb(43, 43, 44);
     color: rgb(255, 255, 240);
-    width: 99%;
+    width: 100%;
     justify-content: center;
 }
 
 a {
     color: rgb(255, 255, 240);
     text-align: center;
+    text-decoration: none;
 }
+
+    /*---------------- Header ----------------*/
+
+header {
+    background-color: rgb(50, 50, 51);
+    padding-top: 1%;
+    margin: 0px;
+}
+        /*---------------- Navigation Bar ----------------*/
+    .navbar > ul {
+        list-style-type: none; 
+        display: inline;
+    }
+
+    .navbar > ul > li {
+        float: left;
+        margin: 1%;
+        margin-top: -.5%;
+    }
+
+    .navbar > ul > li > a:hover {
+        font-weight: bold;
+    }
+
+    /*---------------- Search Box ----------------*/
 
 #searchbox {
     margin: auto;
@@ -30,6 +60,7 @@ a {
     width: 100%;
 }
 
+    /*---------------- External Link ----------------*/
 
 #link {
     width: 100%;
@@ -39,4 +70,18 @@ a {
 
 #link > div {
     margin: 5%;
+
 }
+
+/*---------------- Footer ----------------*/
+
+footer {
+    background-color: rgb(50, 50, 51);
+    padding-top: 1%;
+    margin: 0px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+    /*Same navigation bar than the header*/

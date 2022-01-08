@@ -1,45 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html class="main">
     <head>
         <meta charset="utf-8">
-        <!--link href="styles/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"-->
         <link href="styles/style.css" rel="stylesheet">
         <title>Roki's Search</title>
-        <link rel="icon" href="asset/icon.svg" type="image/icon type">
+        <link rel="icon" href="asset/favicon.svg" type="image/icon type">
     </head>
 
-    <body id='main'>
+    <body id="main">
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Roki's Search</a></li>
+                    <li style="float: right;"><a href="../google/">Switch with Google</a></li>
+                </ul>
+            </nav>
+        </header>
+        
         <!--Search Box-->
-        <div id='searchbox'>
-        <a href="https://duckduckgo.com"> <img src="asset/duckduckgo.svg" > </a>
+        <section id='searchbox'>
+            <a href="https://duckduckgo.com"> <img src="asset/duckduckgo.svg" > </a>
+            
             <!--Display the search box with DuckDuckGo-->
             <iframe src="https://duckduckgo.com/search.html?&focus=yes"; frameborder="0"></iframe>
-        </div>
+        </section>
 
         <!--External Link for other site-->
-        <div id='link'>
+        <section id='link'>
             <div>
-
                 <a href="https://youtube.com">
-                <img src="asset/youtube.svg" alt="">
+                <div class="circle">
+                    <img src="asset/youtube.svg" alt="youtube_logo">
+                </div>
                 <p>Youtube</p>
                 </a>
             </div>
 
             <div>
                 <a href="https://twitter.com/">
-                <img src="asset/twitter.svg" alt="">
+                    <div class="circle">
+                        <img src="asset/twitter.svg" alt="twitter_logo">
+                    </div>
                 <p>Twitter</p>
-
+                </a>
             </div>
 
             <div>
                 <a href="https://twitch.tv/">
-                <img src="asset/twitch.svg" alt="">
+                <div class="circle">
+                    <img src="asset/twitch.svg" alt="twitch_logo">
+                </div>
                 <p>Twitch</p>
-
+                </a>
             </div>
-
-        </div>
+        </section>
     </body>
 </html>
